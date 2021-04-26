@@ -1,0 +1,33 @@
+#frame {
+    width: 100%;
+    padding: 30px;
+    border-right-style: groove;
+    border-color: white;
+}
+
+iframe:hover {
+    border-color: #fe0000;
+    border-style: groove;
+    border-width: medium;
+}
+
+#frame p {
+    line-height: 1.5;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+#frame p:nth-child(2) {
+    border-bottom-style: double;
+    padding-bottom: 15px;
+    border-color: #fe0000;
+    font-size: 20px;
+}
+
+#frame p:nth-child(5) {
+    border-style: outset;
+    padding: 5px;
+    width: 100%;
+    display: inline-block;
+}

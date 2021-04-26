@@ -1,0 +1,19 @@
+main {
+    display: flex;
+    background-color: #f9f9f9;
+}
+
+.nesto {
+    width: 100% !important; 
+    overflow: hidden;
+    display: flex;
+}
+
+.startVideo {
+    display: block;
+    width: 100%;
+    margin-bottom: 50px;
+    border-color: transparent;
+    border-style: dashed;
+    border-width: medium;
+}

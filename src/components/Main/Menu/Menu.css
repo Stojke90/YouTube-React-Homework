@@ -1,0 +1,43 @@
+.visible {
+    max-width: 13%;
+    width: 100%;
+    display: block;
+}
+
+.nonVisible {
+    display: none;
+}
+
+@keyframes example {
+    from {margin-left: 1px}
+    to {margin-left:-176px}
+}
+
+@keyframes example2 {
+    from {margin-left: -176px}
+    to {margin-left:0px}
+}
+.list li {
+    padding: 10px;
+    list-style-type: none;
+    cursor: pointer;
+    color: #696969;
+    font-size: 1.2em;
+}
+
+ul.list {
+    padding: 5px;
+}
+
+.list li:hover {
+    background-color: #e5e5e5;
+    font-weight: bold;
+    color: #f00;
+}
+aside {
+    background-color: #fff;
+}
+
+aside > :first-child {
+    border-bottom: solid 1px #e5e5e5;
+}

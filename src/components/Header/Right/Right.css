@@ -1,0 +1,22 @@
+#right {
+    width: 28%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+#signUpButt {
+    max-width: 220px;
+    height: 30px;
+    padding: 5px 10px;
+    outline: none;
+    margin-top: 30px;
+    cursor: pointer;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+#signUpButt:hover {
+    color: #fe0000bf;
+    border-color: #fe0000bf;
+}
